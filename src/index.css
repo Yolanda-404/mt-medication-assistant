@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Base resets to make sure inputs don't zoom on iOS */
+@layer base {
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"] {
+    font-size: 16px;
+  }
+}
+
